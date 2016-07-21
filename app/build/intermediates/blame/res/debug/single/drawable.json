@@ -148,12 +148,12 @@
         "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\drawable\\p16.png"
     },
     {
-        "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnnueva1.png",
-        "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\drawable\\btnnueva1.png"
-    },
-    {
         "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sa1.png",
         "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\drawable\\sa1.png"
+    },
+    {
+        "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnnueva1.png",
+        "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\drawable\\btnnueva1.png"
     },
     {
         "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\w15.png",
