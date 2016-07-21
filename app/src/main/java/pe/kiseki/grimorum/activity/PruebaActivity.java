@@ -294,6 +294,34 @@ public class PruebaActivity extends Activity implements OnGesturePerformedListen
         ImageView imageAnim2 = (ImageView) findViewById(R.id.imagenpulsar);
         imageAnim2.setBackgroundDrawable(anipulsar);
         imageAnim2.post(new Starter2());
+
+
+
+        aniconjuro = new AnimationDrawable();
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w01), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w02), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w03), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w04), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w05), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w06), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w07), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w08), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w09), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w10), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w11), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w12), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w13), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w14), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w15), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w16), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w17), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w18), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w19), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w20), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w21), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w22), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w23), 100);
+        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w24), 100);
     }
 
     class Starter2 implements Runnable {
@@ -304,6 +332,9 @@ public class PruebaActivity extends Activity implements OnGesturePerformedListen
 
     class Starter3 implements Runnable {
         public void run() {
+            if (aniconjuro.isRunning()) {
+                aniconjuro.stop();
+            }
             aniconjuro.start();
         }
     }
@@ -438,34 +469,9 @@ public class PruebaActivity extends Activity implements OnGesturePerformedListen
     }
 
     public void animacion() {
-        aniconjuro = new AnimationDrawable();
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w01), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w02), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w03), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w04), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w05), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w06), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w07), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w08), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w09), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w10), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w11), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w12), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w13), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w14), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w15), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w16), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w17), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w18), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w19), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w20), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w21), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w22), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w23), 100);
-        aniconjuro.addFrame(getResources().getDrawable(R.drawable.w24), 100);
         anipulsar.setOneShot(true);
         ImageView imageAnim3 = (ImageView) findViewById(R.id.imagenconjuro);
-        imageAnim3.setBackgroundDrawable(this.aniconjuro);
+        imageAnim3.setBackgroundDrawable(aniconjuro);
         imageAnim3.post(new Starter3());
     }
 
