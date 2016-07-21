@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_preliminar.xml",
+        "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\layout\\activity_preliminar.xml"
+    },
+    {
+        "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_monologo.xml",
+        "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\layout\\activity_monologo.xml"
+    },
+    {
+        "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_historia.xml",
+        "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\layout\\activity_historia.xml"
+    },
+    {
+        "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prueba.xml",
+        "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\layout\\activity_prueba.xml"
+    },
+    {
+        "merged": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_final.xml",
+        "source": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\layout\\activity_final.xml"
+    }
+]

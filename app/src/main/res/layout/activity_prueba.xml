@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fondoprueba"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="100.0">
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_weight="45.0"
+        android:layout_width="wrap_content"
+        android:weightSum="100.0">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:layout_width="match_parent" />
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:id="@+id/imagenhechizo"
+            android:layout_height="wrap_content"
+            android:layout_weight="15.0"
+            android:layout_width="match_parent"
+            android:maxHeight="0dp"
+            android:maxWidth="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/nada" />
+
+        <android.gesture.GestureOverlayView
+            android:id="@+id/gestures"
+            android:layout_height="wrap_content"
+            android:layout_weight="83.0"
+            android:layout_width="match_parent" />
+    </TableLayout>
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_weight="55.0"
+        android:layout_width="wrap_content"
+        android:weightSum="100.0">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:layout_width="match_parent" />
+
+        <TableRow
+            android:id="@+id/laybarra"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:weightSum="100.0">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_weight="10.0"
+                android:layout_width="wrap_content" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:adjustViewBounds="true"
+                android:id="@+id/bar"
+                android:layout_height="match_parent"
+                android:layout_weight="50.0"
+                android:layout_width="0dp"
+                android:max="20"
+                android:maxHeight="0dp"
+                android:progress="0"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/vida4"
+                android:layout_height="match_parent"
+                android:layout_weight="10.0"
+                android:layout_width="0dp"
+                android:maxHeight="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/vida1" />
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/vida3"
+                android:layout_height="match_parent"
+                android:layout_weight="10.0"
+                android:layout_width="0dp"
+                android:maxHeight="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/vida1" />
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/vida2"
+                android:layout_height="match_parent"
+                android:layout_weight="10.0"
+                android:layout_width="0dp"
+                android:maxHeight="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/vida1" />
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/vida1"
+                android:layout_height="match_parent"
+                android:layout_weight="10.0"
+                android:layout_width="0dp"
+                android:maxHeight="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/vida1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_weight="71.0"
+            android:layout_width="match_parent"
+            android:weightSum="100.0">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_weight="30.0"
+                android:layout_width="wrap_content" />
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imagenconjuro"
+                android:layout_height="match_parent"
+                android:layout_weight="45.0"
+                android:layout_width="wrap_content"
+                android:maxHeight="0dp"
+                android:maxWidth="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/nada" />
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_weight="25.0"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_weight="23.0"
+            android:layout_width="match_parent"
+            android:weightSum="100.0">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_weight="6.0"
+                android:layout_width="wrap_content" />
+
+            <FrameLayout
+                android:layout_height="match_parent"
+                android:layout_weight="92.0"
+                android:layout_width="wrap_content">
+
+                <ImageView
+                    android:adjustViewBounds="true"
+                    android:id="@id/imagentexto"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:maxHeight="0dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/p01"
+                    android:visibility="invisible" />
+
+                <TableLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:weightSum="100.0">
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_weight="77.0"
+                        android:layout_width="match_parent" />
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_weight="19.0"
+                        android:layout_width="match_parent"
+                        android:weightSum="100.0">
+
+                        <LinearLayout
+                            android:layout_height="match_parent"
+                            android:layout_weight="81.0"
+                            android:layout_width="wrap_content" />
+
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:id="@+id/imagenpulsar"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10.0"
+                            android:layout_width="wrap_content"
+                            android:maxHeight="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/p1" />
+
+                        <LinearLayout
+                            android:layout_height="match_parent"
+                            android:layout_weight="9.0"
+                            android:layout_width="wrap_content" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.0"
+                        android:layout_width="match_parent" />
+                </TableLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_weight="2.0"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_weight="3.0"
+            android:layout_width="match_parent" />
+    </TableLayout>
+</LinearLayout>

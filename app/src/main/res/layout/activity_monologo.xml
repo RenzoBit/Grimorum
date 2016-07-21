@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="100.0">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_weight="66.0"
+        android:layout_width="match_parent" />
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_weight="31.0"
+        android:layout_width="match_parent"
+        android:weightSum="100.0">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="6.0"
+            android:layout_width="wrap_content" />
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_weight="89.0"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imagentexto"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:maxHeight="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/m1" />
+
+            <TableLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:weightSum="100.0">
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_weight="77.0"
+                    android:layout_width="match_parent" />
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19.0"
+                    android:layout_width="match_parent"
+                    android:weightSum="100.0">
+
+                    <LinearLayout
+                        android:layout_height="match_parent"
+                        android:layout_weight="83.0"
+                        android:layout_width="wrap_content" />
+
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/imagenpulsar"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8.0"
+                        android:layout_width="wrap_content"
+                        android:maxHeight="0dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/p1" />
+
+                    <LinearLayout
+                        android:layout_height="match_parent"
+                        android:layout_weight="9.0"
+                        android:layout_width="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.0"
+                    android:layout_width="match_parent" />
+            </TableLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="5.0"
+            android:layout_width="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_weight="3.0"
+        android:layout_width="match_parent" />
+</TableLayout>

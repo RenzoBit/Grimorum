@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.kiseki.grimorum.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:name="App"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HistoriaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".MonologoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".PreliminarActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".PruebaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".FinalActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

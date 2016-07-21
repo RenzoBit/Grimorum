@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 45,
+                        "endOffset": 60
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 79,
+                    "endOffset": 176
+                },
+                "from": {
+                    "file": "C:\\PROYECTOS\\AndroidStudioProjects\\Grimorum\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 16,
+                        "endColumn": 77,
+                        "endOffset": 92
+                    }
+                }
+            }
+        ]
+    }
+]

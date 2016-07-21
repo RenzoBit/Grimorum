@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.kiseki.grimorum.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:name="pe.kiseki.grimorum.activity.App"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pe.kiseki.grimorum.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pe.kiseki.grimorum.activity.HistoriaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="pe.kiseki.grimorum.activity.MonologoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="pe.kiseki.grimorum.activity.PreliminarActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="pe.kiseki.grimorum.activity.PruebaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="pe.kiseki.grimorum.activity.FinalActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>
